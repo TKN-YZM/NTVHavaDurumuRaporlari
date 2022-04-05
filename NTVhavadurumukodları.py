@@ -85,7 +85,7 @@ class HavaDurumu():
               format(self.hava[0],self.gunduz[0],self.gece[0],self.hava[1], self.gunduz[1], self.gece[1],self.gunler[2],self.hava[2],self.gunduz[2],self.gece[2],self.gunler[3],self.hava[3],self.gunduz[3],self.gece[3],self.gunler[4],self.hava[4],self.gunduz[4],self.gece[4]))
 
 
-hava=HavaDurumu()
-hava.HavaRaporlari()
+hava=HavaDurumu()  
+hava.HavaRaporlari() // Bu genel classın ismi bunu çağırmadan işlem yapmayız.
 hava.bes_gunluk()
 
